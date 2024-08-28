@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/031c42b9-0c81-4db5-b980-0160765188e9/d4a5ce7f-8ed5-4f19-847e-c30dcb94434f/KR-ko-20240819-TRIFECTA-perspective_WEB_b52e8b72-0adb-4297-b373-a69e092f69e4_large.jpg) ;
+}
+header {
+    height: 100vh;
+    width: 100dvw;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    overflow: scroll;
+}
+
+header {
+    background: #000000;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 255, 0, 0) 80%);
+    background: -webkit-linear-gradient(90deg, #000000 0%, rgba(0, 255, 0, 0) 80%);
+    background: -moz-linear-gradient(90deg, #000000 0%, rgba(0, 255, 0, 0) 80%);
+}
+
+.main-container {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+
+    cursor: pointer;
+}
+
+div {
+    justify-content: space-between;
+}
+
+.drop {
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: rgb(42, 42, 42);
+    color: #ffffff33;
+    height: 100%;
+    width: 120px;
+    border-radius: 5px;
+    border: #ffffff33 solid 0.5px;
+    text-align: center;
+}
+
+.login_btn {
+    cursor: pointer;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f40000;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 18px;
+    transition: all 0.3s;
+    line-height: 43px;
+}
+
+
+
+.text-box {
+    display: flex;
+    list-style: none;
+    margin-top: 57px;
+    font-style: bold;
+    flex-wrap: nowrap;
+    row-gap: 28px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.text {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.text1 {
+    margin-top: 26px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+li b {
+    font-size: 20px;
+}
+
+
+.user_email {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 28px;
+    padding: 10px 20px 10px;
+    width: 245px;
+    height: 40px;
+    line-height: 100px;
+    color: #fff;
+}
+
+.btrn_free {
+    display: flex;
+    width: 245px;
+    height: 65px;
+    background-color: #E50914;
+    color: whitesmoke;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+.mail {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+ul{
+    display: flex;
+    align-content: center;
+    
+}
